@@ -28,7 +28,7 @@ public class secHighVal {
 				secmax=arr[i];
 			}
 			
-			
+			System.out.println("conflict check");
 		}
 System.out.println(secmax);
 System.out.println(Integer.MIN_VALUE);
