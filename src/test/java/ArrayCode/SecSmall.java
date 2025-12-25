@@ -4,7 +4,9 @@ public class SecSmall {
 
 	public static void main(String[] args) {
 		int arr[]= {6,9,3,6,4,2,5,7,4,8};
+
 		//local changes
+
 		int lar=0;
 		int seclar=0;
 		
