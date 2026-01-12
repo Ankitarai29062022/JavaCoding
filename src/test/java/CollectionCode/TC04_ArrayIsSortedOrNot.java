@@ -3,7 +3,7 @@ package CollectionCode;
 public class TC04_ArrayIsSortedOrNot {
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub Anks
 		
 		int arr[]= {2,5,6,3,8};
 		boolean status=false;
