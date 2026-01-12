@@ -9,11 +9,11 @@ public class DiffExceptions {
 		
 		//===========NoFormatException=============
 		
-		String s1="abc";
-		int b=Integer.parseInt(s1);
-		System.out.println(b);
-		
-		
+//		String s1="abc";
+//		int b=Integer.parseInt(s1);
+//		System.out.println(b);
+//		
+//		
 		//=======================================
 		try {
 		int a=50/0;
@@ -21,13 +21,16 @@ public class DiffExceptions {
 		catch(Exception e){
 			e.printStackTrace();
 			}
-		//=============================================
-		try {
-			String s = null;
-			System.out.println(s.length());
-		} catch (Exception e) {
-			// TODO: handle exception
+		finally {
+			System.out.println("Arithmetic Exceptn");
 		}
+		//=============================================
+//		try {
+//			String s = null;
+//			System.out.println(s.length());
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//		}
 		}
 
 }

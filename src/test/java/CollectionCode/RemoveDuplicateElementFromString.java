@@ -2,7 +2,6 @@ package CollectionCode;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class RemoveDuplicateElementFromString {
 
@@ -12,7 +11,7 @@ public class RemoveDuplicateElementFromString {
 	
 		StringBuilder sb=new StringBuilder();
 		char m[]=str.toCharArray();
-		Set<Character> st=new TreeSet();
+		Set<Character> st=new LinkedHashSet();
 		for(char t:m) {
 			st.add(t);
 		}

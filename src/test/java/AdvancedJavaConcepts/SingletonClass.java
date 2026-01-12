@@ -6,11 +6,16 @@ public class SingletonClass {
 		
 	}
 	
-	private static int vari;
+	private static SingletonClass instance;
 	
 	
-	public static SingletonClass driverin() {
-		return null;
+	public static SingletonClass getInstance() {
+		System.out.println("test");
+		if (instance == null) {
+            instance = new SingletonClass();
+        }
+
+		return instance;
 		
 	}
 	
@@ -18,8 +23,14 @@ public class SingletonClass {
 	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		SingletonClass ts=SingletonClass.getInstance();
 
+		SingletonClass ts1=SingletonClass.getInstance();
+
+		System.out.println(ts.getInstance());
+		System.out.println(ts1.getInstance());
+		System.out.println(ts==ts1);
 	}
 
 }
